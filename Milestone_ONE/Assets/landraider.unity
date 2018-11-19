@@ -199,6 +199,8 @@ GameObject:
   - component: {fileID: 187953007}
   - component: {fileID: 187953010}
   - component: {fileID: 187953009}
+  - component: {fileID: 187953011}
+  - component: {fileID: 187953012}
   m_Layer: 0
   m_Name: Landraider
   m_TagString: Untagged
@@ -322,6 +324,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   originalPos: {x: 0, y: 0, z: 0}
+--- !u!114 &187953011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 187953004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b57903cf28b7c6340a6f9a62a1562bb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myLandraider: {fileID: 0}
+--- !u!114 &187953012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 187953004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ec5e0fd728e9134aa9a571eef6cd9b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &859219074
 GameObject:
   m_ObjectHideFlags: 0
